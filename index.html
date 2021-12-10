@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: center;">Vídeo</h1>
+    
+    <video id="playerCustomizado" width="782" controls poster="img/estrada.png.opdownload">
+        <source src="video/y2meta.com-Baladas Rock para ouvir na estrada-(480p).mp4">
+    </video>
+    
+    <br>
+    <br>
+    
+    <div>
+        <button onclick = "playPause()" type="button" class="button" style="background-color: rgb(200, 245, 245); font-weight: bold; height: 50px; border-radius: 5px; letter-spacing: 1px; font-size: 15px;">Play / Pause</button>
+        <button onclick = "Ampliar()" type="button" class="button" style="background-color: rgb(200, 245, 245); font-weight: bold; height: 50px; border-radius: 5px; letter-spacing: 1px; font-size: 15px;"> Ampliar</button>
+        <button onclick = "Reduzir()" type="button" class ="button" style="background-color: rgb(200, 245, 245); font-weight: bold; height: 50px; border-radius: 5px; letter-spacing: 1px; font-size: 15px;"> Reduzir</button>
+        <button onclick = "Telacheia()" type="button" class ="button" style="background-color: rgb(200, 245, 245); font-weight: bold; height: 50px; border-radius: 5px; letter-spacing: 1px; font-size: 15px;"> Tela Cheia</button>
+        <button onclick = "Tamanhonormal()" type="button" class ="button" style="background-color: rgb(200, 245, 245); font-weight: bold; height: 50px; border-radius: 5px; letter-spacing: 1px; font-size: 15px;"> Tamanho Normal</button>
+        <button onclick = "Volumemais()" type="button" class ="button" style="background-color: rgb(200, 245, 245); font-weight: bold; height: 50px; border-radius: 5px; letter-spacing: 1px; font-size: 15px;"> Volume +</button>
+        <button onclick = "Volumemenos()" type="button" class="button" style="background-color: rgb(200, 245, 245); font-weight: bold; height: 50px; border-radius: 5px; letter-spacing: 1px; font-size: 15px;"> Volume -</button>
+        <button onclick = "Mute()" type="button" class="button" style="background-color: rgb(200, 245, 245); font-weight: bold; height: 50px; border-radius: 5px; letter-spacing: 1px; font-size: 15px;"> Mute</button>
+    </div>
+
+    <script src="js/player.js"></script>
+
+</body>
+</html>
